@@ -1,0 +1,53 @@
+#anuncio{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo_lojinha{
+    font-family: Arial, sans-serif;
+}
+
+.anuncio_article{
+    width: 17%;
+    text-align: center;
+    border: 1px solid blue;
+    border-radius: 10px;
+    margin: 3px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagem{
+    width: 80%;
+}
+
+.textos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.descricao{
+    text-align: justify;
+}
+
+.preco{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titulo_lojinha{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
