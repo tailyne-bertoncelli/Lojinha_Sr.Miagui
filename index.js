@@ -7,7 +7,6 @@ cria_titulo.appendChild(cria_titulo_lojinha);
 selection_element_titulo.appendChild(cria_titulo);
 
 
-let selection_element = document.getElementById("anuncio");
 
 let anuncio = [
     {
@@ -76,7 +75,7 @@ let anuncio = [
     }
 ]
 
-
+let selection_element = document.getElementById("anuncio");
 let tamanho_anuncio = anuncio.length;
 
 for (i=0; i<tamanho_anuncio; i++){
